@@ -30,5 +30,10 @@ public class Principal {
         System.out.printf("For tradicional\n");
         for(int i = 0; i < lista.size(); i++)
             System.out.println(lista.get(i));
+        
+        lista.add(5+3);
+        lista.add(4*x/2);
+        
+        System.out.println("Elementos de la lista: " + lista.size());
     }
 }
